@@ -1,5 +1,5 @@
 name: eeffects
-description: Flutter package containing a variety of effects
+description: Flutter package containing a variety of simple 2D effects. Point Lights, Light Beams, fire and Lightning Bolts so far.
 version: 0.0.1
 homepage: https://github.com/evilevidenz/eeffects
 

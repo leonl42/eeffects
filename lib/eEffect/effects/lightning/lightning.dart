@@ -47,8 +47,7 @@ class ELightning extends EEffect {
       this.lightningBlur,
       this.repainter,
       {String name = ""})
-      : super(true, true, name: name) {}
-
+      : super(true, true, name: name);
   void buildLightningOnNextTickATTarget(ERelativePair targetPosition) {
     _buildLightningOnNextTick = true;
     _targetPosition = targetPosition;

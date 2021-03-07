@@ -488,8 +488,8 @@ Subclass of `EEffect`
 - **double \_newBlur = 0**<br/> new blur value that currentBlur will change to
 - **ERelative blurPulseRange**<br/> currentBlur will change linear to random values <br/> within [blur-blurPulseRange,blur+blurPulseRange]
 - **double blurPulseSpeed**<br/> value between 0 and 1. If blurPulseSpeed is one, currentBlur <br/> will change in one tick to newBlur
-- **double flickerOn**<br/>chance that light will turn on when off
-- **double flickerOff**<br/>chance that light will turn off when on
+- **double flickerOn**<br/>chance that light will turn on when off. Value between 0 and 1. 1 is equal to 100% and 0 to 0%
+- **double flickerOff**<br/>chance that light will turn off when on. Value between 0 and 1. 1 is equal to 100% and 0 to 0%
 
 #### Methods:
 
