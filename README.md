@@ -376,7 +376,7 @@ an angle of 0 is represented as `EVector2D(1,0)` => relative to width
 
 #### Methods:
 
-- **getAbsoluteValue(Size size, EVector2D direction) -> double** <br/> returns the absolute value
+- **getAbsoluteValue(Size size) -> double** <br/> returns the absolute value
 
 ## ERelativePair
 
@@ -397,7 +397,7 @@ Contains 2 `ERelative`
 - **get getFirstRelativeValue -> double** <br/> returns the `relative` of `firstRelative`
 - **set setSecondRelativeValue(double value)** <br/> sets the `relative` of `secondRelative`
 - **get getSecondRelativeValue -> double** <br/> returns the `relative` of `secondRelative`
-- **getAbsolutePair(Size size, EVector2D direction) -> EVector2D** <br/> returns the absolutes of the two `ERelatives` stored in an `EVector2D`
+- **getAbsolutePair(Size size) -> EVector2D** <br/> returns the absolutes of the two `ERelatives` stored in an `EVector2D`
 
 ## ERelativePos
 
