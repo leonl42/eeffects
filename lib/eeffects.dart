@@ -11,3 +11,5 @@ export 'eEffect/effects/colorShift.dart';
 export 'eEffect/effects/gradient.dart';
 export 'eEffect/effects/lightning/lightning.dart';
 export 'eEffect/effects/fire/fire.dart';
+export 'eEffect/effects/effect.dart';
+export 'eEffect/effects/light/light.dart';
